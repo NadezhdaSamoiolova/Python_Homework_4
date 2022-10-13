@@ -4,27 +4,14 @@
 
 #Импорт модуля math  
 
-# x = float(input('Input a broken number: '))
-# s = str(x)
-# d = abs(s.find('.') - len(s)) - 1
-# print('$d = ', 10 ** (-d))
+x = float(input('Input a broken number: '))
+s = str(x)
+d = abs(s.find('.') - len(s)) - 1
+print('$d = ', 10 ** (-d))
 
-# import math  
+import math  
 
-# # вывод значения PI
+# вывод значения PI
 
-# print(f'π = {round(math.pi, d)}.$')
-
-###### Решение коллег с семинара: 
-# def num_precise(n_um, d_c):
-#     n_um = Decimal(n_um)
-#     n_um = n_um.quantize(Decimal(d_c))
-
-#     return n_um
-
-
-# num = input('Input the number: ')
-# d = input('Input the necessary precision number d: ')
-# print(num_precise(num, d))
-
+print(f'π = {round(math.pi, d)}.$')
 
