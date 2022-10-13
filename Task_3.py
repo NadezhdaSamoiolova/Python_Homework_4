@@ -1,13 +1,14 @@
 ## Task 3. Задайте последовательность чисел. Напишите программу, которая выведет список 
 # неповторяющихся элементов исходной последовательности.
 
-# numbers = input("Input a list of numbers separated by a space: ").split()
-# temp = [] 
-# for x in numbers: 
-#     if x not in temp: 
-#         temp.append(x) 
-# numbers = temp 
-# print(f'Updated List after removing duplicates = {temp}')
+numbers = input("Input a list of numbers separated by a space: ").split()
+temp = [] 
+for x in numbers: 
+    if x not in temp: 
+        temp.append(x) 
+numbers = temp 
+print(f'Updated List after removing duplicates = {temp}')
+
 
 #### Через функцию set
 
@@ -15,6 +16,7 @@
 
 # numbers_1 = list(set(numbers)) 
 # print(numbers_1) 
+
 
 #### Как ключи словаря
 
